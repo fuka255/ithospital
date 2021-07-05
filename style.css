@@ -1,0 +1,213 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ 
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    background-color: #ffffff;
+    width: 980px;
+    margin: auto;
+}
+
+
+
+
+
+
+header .banner_text{
+   color: #ffffff; 
+}
+
+header .banner_text
+{
+    text-shadow: 1px 2px 3px #808080;
+    text-align: center;
+    padding: 0px;
+    font-size: 4.0rem;
+}
+
+header .banner
+{
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 150px;
+    background-image: url(../img/bannerimg.png);
+    background-size: cover;
+}
+
+header .p
+{
+    font-size: 4.5rem;
+}
+
+
+
+
+
+section h2
+{
+    font-size: 2.8rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+section a{
+    text-decoration: none;
+    
+    
+}
+
+
+
+
+#gbarea{
+    background-color: #003466;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 2.4rem;
+}
+
+
+.menu_text {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.menu_text a{
+    color: #ffffff;
+}
+
+
+
+
+#prarea{
+    background-color: #003466;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+#prarea a{
+    color: #ffffff;
+}
+
+.items {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.item{
+   display: inline-block;
+}
+
+.item-title{
+    text-align: left;
+    margin:  10px;
+    font-size: 1.6rem;
+}
+
+.item-title:hover{
+    text-decoration: underline;
+}
+
+.item-img:hover{
+   opacity: 0.5;
+}
+
+
+
+
+
+
+#cparea{
+    background-color: #003466;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.tbl{
+    color:#ffffff;
+   font-size: 1.8rem;
+   margin-bottom: 55px;
+}
+
+td{
+    padding: 0px 0px 0px 20px;
+}
+
+
+
+
+
+#ctarea{
+    background-color: #eaf2f4;
+    padding: 30px;
+    font-size: 1.7rem;
+ 
+}
+
+#ctarea a{
+    color: #000000;
+    margin: 10px;
+}
+
+#ctarea a:hover{
+    color: #42b9d0;
+}
+
+
+
+
+.ctmenu {
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+
+}
+
+li:last-child {
+  border-right: none;
+}
+
+
+
+.cprt{
+    background-color: #ffffff;
+    padding: 70px;
+    text-align: center;
+}
+
