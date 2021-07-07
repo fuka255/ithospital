@@ -39,7 +39,12 @@ body
 
 
 
+.banner
+{
 
+    background-image: url(./img/doctor-563428_1920.jpg);
+    background-size: cover;
+}
 
 
 header .banner_text{
@@ -60,7 +65,7 @@ header .banner
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 150px;
-    background-image: url(https://github.com/fuka255/sample/blob/main/bannerimg.png?raw=true);
+    background-image: url(../img/bannerimg.png);
     background-size: cover;
 }
 
@@ -87,8 +92,9 @@ section a{
     
 }
 
-
-
+.gbmenu{
+    margin-top: 10px;
+}
 
 #gbarea{
     background-color: #003466;
@@ -100,7 +106,7 @@ section a{
 
 
 .menu_text {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 50px;
 }
 
@@ -210,4 +216,6 @@ li:last-child {
     padding: 70px;
     text-align: center;
 }
+
+
 
